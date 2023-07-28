@@ -96,6 +96,7 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    devise-bootstrap-views (1.1.0)
     erubi (1.12.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
@@ -233,6 +234,7 @@ DEPENDENCIES
   cssbundling-rails (~> 1.2)
   debug
   devise
+  devise-bootstrap-views (~> 1.0)
   importmap-rails
   jbuilder
   jsbundling-rails (~> 1.1)
