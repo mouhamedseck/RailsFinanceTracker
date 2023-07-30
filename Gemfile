@@ -6,6 +6,9 @@ ruby "3.2.2"
 #Costum scss
 gem 'sassc-rails'
 
+gem 'remotipart', '~> 1.4.4'
+
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.6"
 

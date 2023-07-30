@@ -19,6 +19,8 @@
       <%= render 'layouts/messages' %>
       <%= yield %>
     </div>
-    
+  
+    <%= javascript_include_tag 'rails-ujs' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>
